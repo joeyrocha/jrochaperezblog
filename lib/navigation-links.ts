@@ -32,15 +32,19 @@ const content: ContentNavItem[] = [
 
 export const navigationLinks: NavItem[] = [
   {
+    /*
     title: "Content",
-    content,
+    content,*/
+    title: "Blog",
+    href: "/posts",
+    description: "Blogposts. Mostly about web development. Or chicken fingers",
   },
   {
     title: "Projects",
     href: "/projects",
   },
   {
-    title: "Uses",
+    title: "Tech Stack",
     href: "/uses",
   },
   {

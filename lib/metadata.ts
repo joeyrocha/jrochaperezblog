@@ -8,17 +8,17 @@ export const BASE_URL =
   `http://localhost:${process.env.PORT || 3000}`;
 
 export const defaultAuthor: AuthorType = {
-  name: "Amy Shields",
-  handle: "@amyshieldsfake",
+  name: "Joey Rocha",
+  handle: "@joeyrochaperez",
   socialProfiles,
-  email: "definitelyfake@nevermind.com",
+  email: "jrochaperez123@gmail.com",
   website: "https://nextjs.org",
-  jobTitle: "Frontend Engineer & UI Designer",
-  company: "Unicorns & Co.",
+  jobTitle: "IT proffesional & Software Developer",
+  company: "pending",
   availableForWork: true,
   location: {
-    city: "Los Angeles",
-    media: "/losangeles.jpg",
+    city: "San Jose",
+    media: "/joey_pic.png",
   },
 };
 
@@ -38,8 +38,8 @@ const siteMetadata: SiteMetaData = {
   defaultTheme: "system",
   activeAnnouncement: true,
   announcement: {
-    buttonText: "Support on DevHunt →",
-    link: "https://devhunt.org/tool/modern-developer-blog-template-digital-garden-starter",
+    buttonText: "Linkedin",
+    link: "https://www.linkedin.com/in/jrochaperez123/",
   },
   postsPerPage: 10,
   postsOnHomePage: 8,

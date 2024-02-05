@@ -50,8 +50,7 @@ export function Navigation() {
           link={siteMetadata.announcement.link as string}
         >
           <Rocket className="mr-2 h-5 w-5" />
-          <strong className="mr-1">Launching on DevHunt!</strong> If you like this template, please support me by
-          upvoting on DevHunt from Aug 21-27.
+          <strong className="mr-1">Take a look at some other projects!</strong> Like my content buy me a coffee 😀
         </AnnouncementBar>
       )}
       <header
@@ -77,7 +76,7 @@ export function Navigation() {
                     className="duration-300 group-hover:scale-110"
                     width={40}
                     height={40}
-                    src="/avatar.png"
+                    src="/joey_pic.png"
                     alt={defaultAuthor.name}
                   />
                 </Link>
